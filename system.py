@@ -20,7 +20,7 @@ def get_system_info():
 
 def update_info():
     info_label.config(text=get_system_info())
-    root.after(1000, update_info)  # Update every 5 seconds
+    root.after(1000, update_info)  # Update
 
 root = tk.Tk()
 root.title("System Monitor")
